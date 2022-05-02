@@ -5,7 +5,7 @@ import Card from "./Card";
 
 const Expenses = (props) => {
   return (
-    <Card>
+    <Card className="expenses">
       <Expenseitem
         title={props.items[0].title}
         amount={props.items[0].amount}
