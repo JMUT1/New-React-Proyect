@@ -2,6 +2,8 @@ import Expenseitem from "./Expenseitem";
 import "./Expenses.css";
 import "./Card";
 import Card from "./Card";
+import React from "react";
+
 
 const Expenses = (props) => {
   return (
