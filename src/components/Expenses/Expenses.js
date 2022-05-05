@@ -2,11 +2,13 @@ import Expenseitem from "./Expenseitem";
 import "./Expenses.css";
 import React from "react";
 import Card from "../IU/Card";
+import ExpenseFilter from "./ExpenseFilter";
 
 
 const Expenses = (props) => {
   return (
     <Card className="expenses">
+      <ExpenseFilter/>
       <Expenseitem
         title={props.items[0].title}
         amount={props.items[0].amount}
